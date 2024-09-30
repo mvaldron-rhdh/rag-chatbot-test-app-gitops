@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-chatbot-test-app-database-config
+data:
+  VECTORDB_HOST: "rag-chatbot-test-app-database"
+  VECTORDB_PORT: "8000"

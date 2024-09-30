@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-chatbot-test-app-model-config
+data:
+  MODEL_ENDPOINT: "http://rag-chatbot-test-app-model-server:8001"
